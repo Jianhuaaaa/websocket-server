@@ -1,2 +1,12 @@
 server:
   port: 8080
+
+cron:
+  enabled: false
+  scheduler: 0/3 * * * * ?
+
+spring:
+  task:
+    scheduling:
+      pool:
+        size: 5
